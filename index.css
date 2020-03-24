@@ -1,0 +1,99 @@
+body{
+  background-image: url("Assets/body.jpg");
+  background-repeat: repeat;
+}
+
+
+* {
+  font-family:helvetica;
+  font-size: 10pt;
+  font-style: italic;
+
+}
+
+.chat {
+  width:40%;
+  height: 90%;
+  position: fixed;
+  overflow-x:hidden;
+  overflow-y:auto;
+  border:6px solid transparent;
+  border-collapse: collapse;
+  background-image: url("Assets/ChatBg.png");
+  border-image: radial-gradient(white 20%,
+        blue 22%, orangered, lightblue 68%, transparent 70%) 49% ;
+}
+
+.actions {
+  position: fixed;
+  bottom: 0;
+  display: block;
+  width: 100%;
+}
+
+.actions input{
+  height: 48px;
+  display: block;
+  width: 41%;
+  outline: 0;
+  border:4px solid transparent;
+  background: #e6e8e7;
+  border-image: radial-gradient(white 20%,
+        blue 22%, orangered, lightblue 68%, transparent 70%) 49%
+}
+
+.messages div {
+  max-width: 60%;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 7px;
+
+}
+
+.messages .bot {
+  text-align: center;
+  margin-right: auto;
+  background: #daffc4;
+  width: 50% ;
+}
+
+.messages .self {
+  text-align:center;
+  margin-left: auto;
+  background:#8ced53;
+  width: 55%;
+
+}
+
+.secT {
+  align-items: center;
+  width: 50%;
+  margin-left:45%;
+
+}
+
+.secM{
+
+  width: 50%;
+  margin-left:45%;
+  border: 6px solid transparent;
+  background-image: url("Assets/consultant.gif");
+  border-image: radial-gradient(white 20%,
+        blue 22%, orangered, lightblue 68%, transparent 70%) 49%
+}
+
+.secB{
+  width: 50%
+  margin-left:45%:
+}
+
+#p1 {
+  width: auto;
+  margin-left: 46%;
+  font-size: 34pt;
+  font-family: serif;
+  font-weight: bold;
+  color:white;
+  text-shadow: 3px 3px black;
+}
